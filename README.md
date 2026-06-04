@@ -21,4 +21,10 @@ signal from noise.
 
 #### Areas
 AI evaluation · LLM observability (Phoenix / OpenTelemetry) · RAG & agents ·
-regulated-markets domain · QA & test automation · distributed data platforms · Python
+grounding & hallucination detection · QA & test automation · Python
+
+#### Background
+14 years building and leading engineering teams in capital-markets / exchange
+infrastructure — real-time market data, trading and reference-data systems,
+SRE/reliability, and SOX-audited billing & clearing. Now focused on measuring and
+governing AI in high-consequence environments.
