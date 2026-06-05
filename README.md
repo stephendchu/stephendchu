@@ -15,9 +15,10 @@ signal from noise.
   evals, honest nulls, a falsifiable mechanism.
   → **[Read the study](https://stephendchu.github.io/agentic-test-eval/)** · [Code](https://github.com/stephendchu/agentic-test-eval)
 - **filing-event-eval** — an agent that sources event-contract candidates from SEC
-  filings, each grounded in a verifiable citation, with a faithfulness eval and
-  Arize Phoenix / OpenTelemetry tracing. *(in progress)*
-  → [Code](https://github.com/stephendchu/filing-event-eval)
+  filings, each grounded in a verifiable citation — with faithfulness/hallucination
+  evals, anti-fabrication, reliability (retries + graceful absence), and Arize
+  Phoenix / OpenTelemetry tracing.
+  → **[Read the page](https://stephendchu.github.io/filing-event-eval/)** · [Code](https://github.com/stephendchu/filing-event-eval)
 
 #### Areas
 AI evaluation · LLM observability (Phoenix / OpenTelemetry) · RAG & agents ·
