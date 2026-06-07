@@ -1,11 +1,11 @@
 ### Stephen Chu
 **I build evaluation & governance systems that make AI safe to ship in high-consequence, regulated environments.**
 
-Most people building AI agents ask *"does it work?"* My focus is the harder
-question regulated industries actually need answered: *"can you prove it — and
-would you stake an audit on it?"* I design the **evaluation, grounding, and
-governance layer** around agentic/LLM systems, and run it like an SRE:
-deterministic, gated, auditable, and human-approved.
+I work on the **evaluation, grounding, and governance layer** around agentic and
+LLM systems, and I run it like production infrastructure: outputs get checked,
+gated, logged, and signed off before anyone relies on them. The aim is an AI
+system whose behavior you can prove and defend in an audit, not just one that
+looks good in a demo.
 
 That background is 14 years in **financial-markets infrastructure**: exchange
 systems, SRE/reliability, and SOX-audited billing and clearing. In regulated
