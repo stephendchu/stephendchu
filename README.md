@@ -7,11 +7,13 @@ would you stake an audit on it?"* I design the **evaluation, grounding, and
 governance layer** around agentic/LLM systems, and run it like an SRE:
 deterministic, gated, auditable, and human-approved.
 
-That comes from 14 years in **financial-markets infrastructure** — exchange
-systems, SRE/reliability, and SOX-audited billing & clearing — where "mostly
-right" was never an option. Most AI-eval engineers come from ML research; I come
-from **production correctness enforcement in regulated systems**, which is exactly
-what makes AI trustworthy enough to deploy in them.
+That background is 14 years in **financial-markets infrastructure**: exchange
+systems, SRE/reliability, and SOX-audited billing and clearing. In regulated
+trading systems, a wrong number is a real financial and compliance problem, so
+correctness and auditability were always part of the job. Most people who do AI
+evals come from ML research. I came up through production and regulation, which
+is the side that matters most when you have to put AI into environments like
+these.
 
 #### A deliberate three-part arc — measuring & governing AI in regulated domains
 > *"I measure, validate, and govern AI systems in high-consequence regulated environments."*
