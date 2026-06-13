@@ -15,28 +15,11 @@ evals come from ML research. I came up through production and regulation, which
 is the side that matters most when you have to put AI into environments like
 these.
 
-#### Featured — **[hr-fidelity](https://github.com/stephendchu/hr-fidelity)** ← *current build*
-
-A **trust-and-audit layer for AI résumé screeners** — the thing NYC Local Law 144
-and the EU AI Act require but nobody ships: does your screener agree with your
-best recruiters (Cohen's κ), and does it pass disparate-impact testing (EEOC
-four-fifths rule)?
-
-Built around the Amazon recruiting-AI failure (2014–2017) as the villain and
-redemption arc: the demo reproduces that failure live, then shows it caught and
-blocked. Methodology grounded in **Bertrand & Mullainathan (2004)**; counterfactual
-matched-pair invariant TDD'd from the first commit. Full-stack — FastAPI backend,
-recruiter-facing certification dashboard, inline bias-education microcopy —
-on synthetic data only, never real candidates.
-
-→ **[hr-fidelity on GitHub](https://github.com/stephendchu/hr-fidelity)**
-
 ---
 
-#### The evaluation arc — measuring & governing AI in regulated domains
-> *"I measure, validate, and govern AI systems in high-consequence regulated environments."*
+#### Measuring & governing AI in regulated domains
 
-Each repo is one move in the progression; hr-fidelity applies the method to hiring:
+Three repos, one progression — each one a different layer of the same problem:
 
 - **🔎 Validate — [agentic-test-eval](https://github.com/stephendchu/agentic-test-eval)** ✅
   A controlled, contamination-aware study of *when* repo-aware agent tooling beats a
@@ -47,19 +30,11 @@ Each repo is one move in the progression; hr-fidelity applies the method to hiri
   anti-fabrication, and Arize Phoenix / OpenTelemetry tracing.
   → **[Read the page](https://stephendchu.github.io/filing-event-eval/)**
 - **🛡 Govern — [assay](https://github.com/stephendchu/assay)** ✅
-  An audit-first evaluation + governance **control plane**: grounding & anti-fabrication
-  gates, a deterministic checkpointed run loop, maker-checker approval, and a
-  tamper-evident audit log — demonstrated on **SOX ITGC change-management** and
-  **personal-account-dealing surveillance** workflows.
+  An audit-first governance **control plane**: grounding & anti-fabrication gates,
+  deterministic rule checks, maker-checker approval, and a tamper-evident audit log —
+  on **SOX change-management** and **PAD trade surveillance**. Control-F1 0.87 [0.73, 1.00], 35 tests all offline.
   → **[Read the page](https://stephendchu.github.io/assay/)**
 
-#### Areas
-AI evaluation & governance · responsible AI / bias auditing · grounding / hallucination detection · LLM
-observability (Phoenix / OpenTelemetry) · eval control planes & gating · RAG &
-agents · reliability / SRE for AI systems · SOX & auditable controls · Python
+#### What I'm building now — [hr-fidelity](https://github.com/stephendchu/hr-fidelity)
 
-#### Background
-building and leading engineering teams in capital-markets / exchange
-infrastructure — real-time market data, trading and reference-data systems,
-SRE/reliability, and SOX-audited billing & clearing. Now focused on measuring and
-governing AI in high-consequence environments.
+A **trust-and-audit layer for AI résumé screeners** — does your screener agree with your best recruiters (Cohen's κ), and does it pass disparate-impact testing (EEOC four-fifths rule / NYC Local Law 144)? Built around the Amazon recruiting-AI failure as the villain and redemption arc, grounded in Bertrand & Mullainathan (2004), on synthetic data only.
