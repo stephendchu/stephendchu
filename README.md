@@ -59,7 +59,7 @@ observability (Phoenix / OpenTelemetry) · eval control planes & gating · RAG &
 agents · reliability / SRE for AI systems · SOX & auditable controls · Python
 
 #### Background
-14 years building and leading engineering teams in capital-markets / exchange
+building and leading engineering teams in capital-markets / exchange
 infrastructure — real-time market data, trading and reference-data systems,
 SRE/reliability, and SOX-audited billing & clearing. Now focused on measuring and
 governing AI in high-consequence environments.
