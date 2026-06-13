@@ -15,10 +15,28 @@ evals come from ML research. I came up through production and regulation, which
 is the side that matters most when you have to put AI into environments like
 these.
 
-#### A deliberate three-part arc — measuring & governing AI in regulated domains
+#### Featured — **[hr-fidelity](https://github.com/stephendchu/hr-fidelity)** ← *current build*
+
+A **trust-and-audit layer for AI résumé screeners** — the thing NYC Local Law 144
+and the EU AI Act require but nobody ships: does your screener agree with your
+best recruiters (Cohen's κ), and does it pass disparate-impact testing (EEOC
+four-fifths rule)?
+
+Built around the Amazon recruiting-AI failure (2014–2017) as the villain and
+redemption arc: the demo reproduces that failure live, then shows it caught and
+blocked. Methodology grounded in **Bertrand & Mullainathan (2004)**; counterfactual
+matched-pair invariant TDD'd from the first commit. Full-stack — FastAPI backend,
+recruiter-facing certification dashboard, inline bias-education microcopy —
+on synthetic data only, never real candidates.
+
+→ **[hr-fidelity on GitHub](https://github.com/stephendchu/hr-fidelity)**
+
+---
+
+#### The evaluation arc — measuring & governing AI in regulated domains
 > *"I measure, validate, and govern AI systems in high-consequence regulated environments."*
 
-Each repo is one move in the progression:
+Each repo is one move in the progression; hr-fidelity applies the method to hiring:
 
 - **🔎 Validate — [agentic-test-eval](https://github.com/stephendchu/agentic-test-eval)** ✅
   A controlled, contamination-aware study of *when* repo-aware agent tooling beats a
@@ -34,7 +52,7 @@ Each repo is one move in the progression:
   tamper-evident audit log — demonstrated on a **SOX ITGC change-management** workflow.
 
 #### Areas
-AI evaluation & governance · grounding / hallucination detection · LLM
+AI evaluation & governance · responsible AI / bias auditing · grounding / hallucination detection · LLM
 observability (Phoenix / OpenTelemetry) · eval control planes & gating · RAG &
 agents · reliability / SRE for AI systems · SOX & auditable controls · Python
 
