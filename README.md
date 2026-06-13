@@ -19,7 +19,7 @@ these.
 
 #### Measuring & governing AI in regulated domains
 
-Three repos, one progression — each one a different layer of the same problem:
+Four repos, one progression — each one a different layer of the same problem:
 
 - **🔎 Validate — [agentic-test-eval](https://github.com/stephendchu/agentic-test-eval)** ✅
   A controlled, contamination-aware study of *when* repo-aware agent tooling beats a
@@ -34,7 +34,8 @@ Three repos, one progression — each one a different layer of the same problem:
   deterministic rule checks, maker-checker approval, and a tamper-evident audit log —
   on **SOX change-management** and **PAD trade surveillance**. Control-F1 0.87 [0.73, 1.00], 35 tests all offline.
   → **[Read the page](https://stephendchu.github.io/assay/)**
-
-#### What I'm building now — [hr-fidelity](https://github.com/stephendchu/hr-fidelity)
-
-A **trust-and-audit layer for AI résumé screeners** — does your screener agree with your best recruiters (Cohen's κ), and does it pass disparate-impact testing (EEOC four-fifths rule / NYC Local Law 144)? Built around the Amazon recruiting-AI failure as the villain and redemption arc, grounded in Bertrand & Mullainathan (2004), on synthetic data only.
+- **⚖️ Certify — [hr-fidelity](https://github.com/stephendchu/hr-fidelity)** ✅
+  A bias-audit and certification layer for AI résumé screeners — EEOC four-fifths
+  disparate impact, counterfactual drift, and recruiter–AI agreement (Cohen's κ) —
+  CERTIFIED or BLOCKED before the screener touches a live application.
+  → **[Live demo](https://hr-fidelity-schu.fly.dev)**
