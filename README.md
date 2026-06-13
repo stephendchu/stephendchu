@@ -46,10 +46,12 @@ Each repo is one move in the progression; hr-fidelity applies the method to hiri
   Grounded event extraction from SEC filings with faithfulness / hallucination evals,
   anti-fabrication, and Arize Phoenix / OpenTelemetry tracing.
   → **[Read the page](https://stephendchu.github.io/filing-event-eval/)**
-- **🛡 Govern — [assay](https://github.com/stephendchu/assay)** ← *capstone*
+- **🛡 Govern — [assay](https://github.com/stephendchu/assay)** ✅
   An audit-first evaluation + governance **control plane**: grounding & anti-fabrication
   gates, a deterministic checkpointed run loop, maker-checker approval, and a
-  tamper-evident audit log — demonstrated on a **SOX ITGC change-management** workflow.
+  tamper-evident audit log — demonstrated on **SOX ITGC change-management** and
+  **personal-account-dealing surveillance** workflows.
+  → **[Read the page](https://stephendchu.github.io/assay/)**
 
 #### Areas
 AI evaluation & governance · responsible AI / bias auditing · grounding / hallucination detection · LLM
