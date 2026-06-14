@@ -15,6 +15,22 @@ evals come from ML research. I came up through production and regulation, which
 is the side that matters most when you have to put AI into environments like
 these.
 
+#### Featured — **[hr-fidelity](https://github.com/stephendchu/hr-fidelity)** ← *current build*
+
+A **trust-and-audit layer for AI résumé screeners** — the thing NYC Local Law 144
+and the EU AI Act require but nobody ships: does your screener agree with your
+best recruiters (Cohen's κ), and does it pass disparate-impact testing (EEOC
+four-fifths rule)?
+
+Built around the Amazon recruiting-AI failure (2014–2017) as the villain and
+redemption arc: the demo reproduces that failure live, then shows it caught and
+blocked. Methodology grounded in **Bertrand & Mullainathan (2004)**; counterfactual
+matched-pair invariant TDD'd from the first commit. Full-stack — FastAPI backend,
+recruiter-facing certification dashboard, inline bias-education microcopy —
+on synthetic data only, never real candidates.
+
+→ **[Live demo](https://hr-fidelity-schu.fly.dev)** · **[hr-fidelity on GitHub](https://github.com/stephendchu/hr-fidelity)**
+
 ---
 
 #### Measuring & governing AI in regulated domains
@@ -38,4 +54,15 @@ Four repos, one progression — each one a different layer of the same problem:
   A bias-audit and certification layer for AI résumé screeners — EEOC four-fifths
   disparate impact, counterfactual drift, and recruiter–AI agreement (Cohen's κ) —
   CERTIFIED or BLOCKED before the screener touches a live application.
-  → **[Live demo](https://hr-fidelity-schu.fly.dev)**
+  → **[Live demo](https://hr-fidelity-schu.fly.dev)** · **[GitHub](https://github.com/stephendchu/hr-fidelity)**
+
+#### Areas
+AI evaluation & governance · responsible AI / bias auditing · grounding / hallucination detection · LLM
+observability (Phoenix / OpenTelemetry) · eval control planes & gating · RAG &
+agents · reliability / SRE for AI systems · SOX & auditable controls · Python
+
+#### Background
+14 years building and leading engineering teams in capital-markets / exchange
+infrastructure — real-time market data, trading and reference-data systems,
+SRE/reliability, and SOX-audited billing & clearing. Now focused on measuring and
+governing AI in high-consequence environments.
