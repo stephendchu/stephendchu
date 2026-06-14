@@ -29,7 +29,7 @@ matched-pair invariant TDD'd from the first commit. Full-stack — FastAPI backe
 recruiter-facing certification dashboard, inline bias-education microcopy —
 on synthetic data only, never real candidates.
 
-→ **[Live demo](https://hr-fidelity-schu.fly.dev)** · **[hr-fidelity on GitHub](https://github.com/stephendchu/hr-fidelity)**
+→ **[Live demo](https://hr-fidelity-schu.fly.dev)**
 
 ---
 
@@ -54,7 +54,7 @@ Four repos, one progression — each one a different layer of the same problem:
   A bias-audit and certification layer for AI résumé screeners — EEOC four-fifths
   disparate impact, counterfactual drift, and recruiter–AI agreement (Cohen's κ) —
   CERTIFIED or BLOCKED before the screener touches a live application.
-  → **[Live demo](https://hr-fidelity-schu.fly.dev)** · **[GitHub](https://github.com/stephendchu/hr-fidelity)**
+  → **[Live demo](https://hr-fidelity-schu.fly.dev)**
 
 #### Areas
 AI evaluation & governance · responsible AI / bias auditing · grounding / hallucination detection · LLM
