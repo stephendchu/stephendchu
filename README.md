@@ -15,7 +15,7 @@ evals come from ML research. I came up through production and regulation, which
 is the side that matters most when you have to put AI into environments like
 these.
 
-#### Featured — **[hr-fidelity](https://github.com/stephendchu/hr-fidelity)** ← *current build*
+#### Featured — **[hr-fidelity](https://hr-fidelity-schu.fly.dev)** ← *current build*
 
 A **trust-and-audit layer for AI résumé screeners** — the thing NYC Local Law 144
 and the EU AI Act require but nobody ships: does your screener agree with your
